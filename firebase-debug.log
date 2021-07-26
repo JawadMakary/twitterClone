@@ -1,0 +1,21 @@
+[debug] [2021-07-26T18:46:22.686Z] ----------------------------------------------------------------------
+[debug] [2021-07-26T18:46:22.689Z] Command:       D:\node\node.exe D:\node\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-07-26T18:46:22.690Z] CLI Version:   9.9.0
+[debug] [2021-07-26T18:46:22.690Z] Platform:      win32
+[debug] [2021-07-26T18:46:22.690Z] Node Version:  v15.0.1
+[debug] [2021-07-26T18:46:22.691Z] Time:          Mon Jul 26 2021 21:46:22 GMT+0300 (Eastern European Summer Time)
+[debug] [2021-07-26T18:46:22.691Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-07-26T18:46:22.699Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-07-26T18:46:22.699Z] > authorizing via signed-in user (JAWAD.HALBYMAKARY@usf.edu.lb)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\Coding\twitter clone\twitter-clone
+
