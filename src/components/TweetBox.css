@@ -30,3 +30,8 @@
   margin-top: 20px !important;
   margin-left: auto !important;
 }
+.tweetBox__imageInput {
+  border: none;
+  outline: none;
+  padding: 10px;
+}
