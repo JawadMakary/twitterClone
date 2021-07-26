@@ -9,7 +9,7 @@ import SearchIcon from "@material-ui/icons/Search";
 const Widgets = () => {
     return (
         <div className="widgets">
-            <h2>Widgets</h2>
+           
             <div className="widgets__input">
                 <SearchIcon className="widgets__searchIcon" />
                 <input type="text" placeholder="Search Twitter" />
