@@ -13,21 +13,24 @@ const Post = ({displayName,username,
     return (
         <div className="post">
             <div className="post__avatar">
-                <Avatar src="https://avatars.githubusercontent.com/u/69002670?v=4" />
+                <Avatar src={avatar} />
             </div>
             <div className="post__body">
                 <div className="post__header">
                     <div className="post__headerText">
-                        <h3>Jawad Makary {""} <span className="post__headerSpecial">
+                        <h3>{displayName} {""} <span className="post__headerSpecial">
+                            {verified &&
                             <VerifiedUserIcon className="post__badge" />
-                            @jawad138
+                            }
+                            
+                            @{username}
                             </span></h3>
                     </div>
                     <div className="post__headerDescription">
-                        <p>Lorem ipsum dolor sit amet.</p>
+                        <p>{text}</p>
                     </div>
                 </div>
-                <img src="https://pbs.twimg.com/media/E7JOYWOWUAI0rCj?format=jpg&name=small" alt="" />
+                <img src={image} alt="" />
             <div className="post__footer">
             <ChatBubbleOutlineIcon fontSize="small" />
             <RepeatIcon fontSize="small" />
