@@ -3,6 +3,8 @@ import db from '../api/firebase'
 import './Feed.css'
 import Post from './Post'
 import TweetBox from './TweetBox'
+import FlipMove from "react-flip-move";
+
 const Feed = () => {
     const[posts,setPosts]=useState([])
     useEffect(()=>{
@@ -19,6 +21,7 @@ const Feed = () => {
                 <h2>Home</h2>
             </div>
             <TweetBox />
+            <FlipMove>
             {posts.map(post=>(
  <Post displayName={post.displayName}
  username={post.username}
@@ -28,7 +31,7 @@ const Feed = () => {
  image={post.image}
  />
             ))}
-           
+</FlipMove>           
         </div>
     )
 }
